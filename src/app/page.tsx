@@ -1,5 +1,21 @@
-import Image from "next/image";
-import {add} from "mfpop";
+import React,{useState} from "react";
+import Home from "./home/page"
+
+
+export default function Webpage(){
+return(
+  <>
+ <Home/>
+ </>
+);
+}
+
+
+
+
+
+
+
 // export default function Home() {
 //   return (
 //     <main className="flex min-h-screen flex-col items-center justify-between p-24">
@@ -112,15 +128,3 @@ import {add} from "mfpop";
 //   );
 // }
 
-export default function Home(){
-return(
-
-    <>
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-    <p>
-      {add(9,9)}
-    </p>
-    </main>
-    </>
-);
-}
