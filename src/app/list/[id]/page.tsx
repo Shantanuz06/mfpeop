@@ -1,8 +1,7 @@
 'use client'
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import { useRouter } from 'next/router';
-import Image from 'next/image';
+
 
 
 

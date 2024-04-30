@@ -2,7 +2,7 @@ import React,{useState} from "react";
 import Home from "./home/page"
 
 
-export default function Webpage(){
+export default function Page(){
 return(
   <>
  <Home/>
