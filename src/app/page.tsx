@@ -1,11 +1,11 @@
 import React,{useState} from "react";
-import Home from "./home/page"
+import Hoome from "./hoome/page";
 
 
-export default function Page(){
+export default function App(){
 return(
   <>
- <Home/>
+ <Hoome/>
  </>
 );
 }

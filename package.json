@@ -9,8 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@ag-grid-community/core": "^31.3.1",
+    "@ag-grid-community/react": "^31.3.1",
     "axios": "^1.6.8",
-    "mfpop": "^1.1.2",
     "next": "14.2.3",
     "react": "^18",
     "react-dom": "^18",
